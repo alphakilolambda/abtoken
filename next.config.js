@@ -5,9 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // GitHub Pages için base path
-  basePath: '/abtoken',
-  assetPrefix: '/abtoken',
+  // Custom domain kullanıldığı için basePath kaldırıldı
   trailingSlash: true,
 }
 
