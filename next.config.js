@@ -7,6 +7,7 @@ const nextConfig = {
   },
   // GitHub Pages için base path
   basePath: '/abtoken',
+  assetPrefix: '/abtoken',
   trailingSlash: true,
 }
 
