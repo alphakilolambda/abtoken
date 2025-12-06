@@ -114,9 +114,6 @@ export default function Tokenomics() {
                       {item.description && (
                         <p className="text-sm text-gray-600">{item.description}</p>
                       )}
-                      {item.lockPeriod && (
-                        <p className="text-sm text-gray-600">{item.lockPeriod}</p>
-                      )}
                     </div>
                     <div className="text-right">
                       <div className="font-bold text-black">{item.amount}</div>
