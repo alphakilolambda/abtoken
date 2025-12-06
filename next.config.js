@@ -5,11 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // GitHub Pages için base path (repo adınızı buraya yazın)
-  // Örnek: basePath: '/newagent' (eğer repo adı newagent ise)
-  // Eğer custom domain kullanacaksanız basePath'i kaldırın
-  // basePath: '/newagent',
-  // trailingSlash: true,
+  // GitHub Pages için base path
+  basePath: '/abtoken',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
