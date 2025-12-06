@@ -24,13 +24,13 @@ export default function Header() {
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            <Link href="#features" className="text-gray-700 hover:text-black transition-colors">
+            <Link href="/#features" className="text-gray-700 hover:text-black transition-colors">
               Features
             </Link>
-            <Link href="#staking" className="text-gray-700 hover:text-black transition-colors">
+            <Link href="/#staking" className="text-gray-700 hover:text-black transition-colors">
               Staking
             </Link>
-            <Link href="#tokenomics" className="text-gray-700 hover:text-black transition-colors">
+            <Link href="/#tokenomics" className="text-gray-700 hover:text-black transition-colors">
               Tokenomics
             </Link>
             <Link href="/docs" className="text-gray-700 hover:text-black transition-colors">
@@ -53,9 +53,9 @@ export default function Header() {
 
         {isMenuOpen && (
           <div className="md:hidden py-4 space-y-4">
-            <Link href="#features" className="block text-gray-700 hover:text-black">Features</Link>
-            <Link href="#staking" className="block text-gray-700 hover:text-black">Staking</Link>
-            <Link href="#tokenomics" className="block text-gray-700 hover:text-black">Tokenomics</Link>
+            <Link href="/#features" className="block text-gray-700 hover:text-black">Features</Link>
+            <Link href="/#staking" className="block text-gray-700 hover:text-black">Staking</Link>
+            <Link href="/#tokenomics" className="block text-gray-700 hover:text-black">Tokenomics</Link>
             <Link href="/docs" className="block text-gray-700 hover:text-black">Docs</Link>
             <Link href="/pricing" className="block text-gray-700 hover:text-black">Pricing</Link>
           </div>
