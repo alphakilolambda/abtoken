@@ -33,10 +33,10 @@ export default function Header() {
             <Link href="#tokenomics" className="text-gray-700 hover:text-black transition-colors">
               Tokenomics
             </Link>
-            <Link href="#docs" className="text-gray-700 hover:text-black transition-colors">
+            <Link href="/docs" className="text-gray-700 hover:text-black transition-colors">
               Docs
             </Link>
-            <Link href="#pricing" className="text-gray-700 hover:text-black transition-colors">
+            <Link href="/pricing" className="text-gray-700 hover:text-black transition-colors">
               Pricing
             </Link>
           </nav>
@@ -56,8 +56,8 @@ export default function Header() {
             <Link href="#features" className="block text-gray-700 hover:text-black">Features</Link>
             <Link href="#staking" className="block text-gray-700 hover:text-black">Staking</Link>
             <Link href="#tokenomics" className="block text-gray-700 hover:text-black">Tokenomics</Link>
-            <Link href="#docs" className="block text-gray-700 hover:text-black">Docs</Link>
-            <Link href="#pricing" className="block text-gray-700 hover:text-black">Pricing</Link>
+            <Link href="/docs" className="block text-gray-700 hover:text-black">Docs</Link>
+            <Link href="/pricing" className="block text-gray-700 hover:text-black">Pricing</Link>
           </div>
         )}
       </div>
